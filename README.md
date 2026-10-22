@@ -1,0 +1,1 @@
+[UK Income Inequality Before and After the 2010 Fiscal Consolidation_ A Data-Driven Comparison.docx](https://github.com/user-attachments/files/33845344/UK.Income.Inequality.Before.and.After.the.2010.Fiscal.Consolidation_.A.Data-Driven.Comparison.docx)
