@@ -1,0 +1,31 @@
+UK Income Inequality: Statistical Analysis
+=========================================
+
+Correlation between Gini coefficient and median equivalised income:
+[1] 0.36759
+
+Correlation between S80/S20 ratio and median equivalised income:
+[1] 0.7285481
+
+Regression model: rate ~ gini + ratio
+
+
+Call:
+lm(formula = rate ~ gini + ratio, data = inequality_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-773.99 -216.80   48.37  192.73  826.33 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)   
+(Intercept)   -764.2     3241.8  -0.236  0.81797   
+gini         11277.0     7772.7   1.451  0.17473   
+ratio         1417.1      390.7   3.627  0.00398 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 427 on 11 degrees of freedom
+Multiple R-squared:  0.6061,	Adjusted R-squared:  0.5345 
+F-statistic: 8.465 on 2 and 11 DF,  p-value: 0.005947
+
